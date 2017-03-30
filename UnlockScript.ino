@@ -22,7 +22,7 @@ void loop() {
     if (content == "ENABLE") {
       digitalWrite(2, LOW);
       digitalWrite(LED_BUILTIN, HIGH);
-      delay(2000);
+      delay(5000);
     }
   }
 }
