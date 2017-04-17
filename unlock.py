@@ -7,7 +7,6 @@ def unlock():
     sleep(2)  # Wait for the arduino to be ready.
     ser.write("ENABLE")
     ser.close()
-    exit()
 
 if __name__ == "__main__":
     unlock()
